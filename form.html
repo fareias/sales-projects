@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400;300' rel='stylesheet' type='text/css'>
+    <link href='style.css' rel='stylesheet'>
+  </head>
+  
+  <body>
+
+    <!-- Menu -->
+    
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">New Form</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    
+    <!-- Content body -->
+    
+    <div class="content">
+      <div class="topbar">
+        <img class="topbar-logo" src="images/nav-logo.svg" width="19" height="19" alt="Logo">
+      </div>
+      
+      <!-- New form body -->
+      <div class="left-column">
+        <fieldset class="fieldset">
+          <div class="new-form">
+            <form name="myform" id="myform">
+             Client: <input type="text" id="client" value="" /><p/>
+             Resources: <input type="text" id="resources" value="" /><p/>
+             Timing: <input type="text" id="timing" value="" /><p/>
+             Other costs: <input type="text" id="othercosts" value="" /><p/>
+            </form>
+          
+        </div>
+        </fieldset>
+      </div>
+
+      <!-- New form body -->
+      <div class="right-column">
+        <fieldset class="fieldset">
+          <div class="results">
+            Client: <div id="clientInput"></div> </p>
+            Resources: <div id="resourcesInput"></div></p>
+            Timing: <div id="timingInput"></div></p>
+            Other Costs: <div id="otherInput"></div></p>
+            Margin: <div id="marginOutput"></div></p>
+          </div>
+        </fieldset>
+      </div>
+    
+    </div>
+
+    <script src="app.js"></script>
+    <script src="simulator.js"></script>
+  </body>
+</html>
