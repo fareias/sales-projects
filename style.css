@@ -84,8 +84,7 @@ body {
 
 .left-column {
   float: left;
-  width: 50%;
-  
+  width: 50%;  
 }
 
 .right-column {
@@ -95,11 +94,13 @@ body {
 
 /* Forms styling */
 
-.new-form {
+.fieldset {
   font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 11px;
   text-align: left;
+  margin-top: 2px;
+  height: 400px;
 }
 
 .new-form input {

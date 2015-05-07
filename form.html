@@ -28,6 +28,11 @@
       <!-- New form body -->
       <div class="left-column">
         <fieldset class="fieldset">
+          <select id="currency">
+            <option selected> BRL </option>
+            <option> USD </option>
+          </select> <p/>
+
           <div class="new-form">
             <form name="myform" id="myform">
              Client: <input type="text" id="client" value="" /><p/>
@@ -51,9 +56,9 @@
             Other Costs: <div id="otherInput"></div></p>
             Final Cost: <div id="finalCost"></div></p>
             Margin: <div id="marginInput"></div></p>
-            Final Price:<div id="finalPrice"></div></p> 
-            
-          </div>
+            Final Price:<div id="finalPrice"></div></p>
+            <div id="quotation"></div></p>
+         </div>
         </fieldset>
       </div>
     
@@ -61,6 +66,5 @@
 
     <script src="app.js"></script>
     <script src="simulator.js"></script>
-    <script src="quote.js"></script>
   </body>
 </html>
